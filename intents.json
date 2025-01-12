@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey there",
+        "Good morning",
+        "Good evening",
+        "What's up?"
+      ],
+      "responses": [
+        "Hi there! Welcome to our 24/7 Grocery Store. How can I assist you?",
+        "Hello! How can I help you today?",
+        "Hey! Need assistance with anything?"
+      ]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": [
+        "What are your hours?",
+        "Are you open?",
+        "Is the store open now?",
+        "What time do you close?",
+        "Are you 24/7?"
+      ],
+      "responses": [
+        "We're open 24/7, so you can shop anytime!",
+        "Yes, we're open 24/7. Feel free to visit us at any time."
+      ]
+    },
+    {
+      "tag": "place_order",
+      "patterns": [
+        "I want to place an order",
+        "Can I order online?",
+        "How do I place an order?",
+        "I need to order {item}",
+        "Can you help me order groceries?"
+      ],
+      "responses": [
+        "Sure! You can place an order on our website or through our app. Would you like me to guide you through the process?",
+        "Of course! What items would you like to order?"
+      ]
+    },
+    {
+      "tag": "delivery_options",
+      "patterns": [
+        "Do you deliver?",
+        "What are your delivery options?",
+        "Can I get groceries delivered?",
+        "How much is delivery?",
+        "Do you have same-day delivery?"
+      ],
+      "responses": [
+        "Yes, we offer delivery 24/7. Same-day delivery is available for orders placed before 6 PM. Would you like more details?",
+        "We deliver to your doorstep anytime. Delivery fees depend on your location and order size."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with a credit card?",
+        "Do you accept cash?",
+        "Can I use mobile payments?",
+        "What are your payment options?"
+      ],
+      "responses": [
+        "We accept all major credit and debit cards, cash, and mobile payment options like Apple Pay and Google Pay.",
+        "You can pay using cash, card, or mobile payment apps."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy?",
+        "Can I return items?",
+        "How do returns work?",
+        "Do you accept returns?",
+        "Can I get a refund?"
+      ],
+      "responses": [
+        "You can return items within 30 days of purchase with a receipt. Would you like more details?",
+        "Yes, returns are accepted within 30 days. Please ensure you have the receipt with you."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "I need help",
+        "Can I talk to someone?",
+        "Is there customer support?",
+        "How can I contact support?",
+        "Can I speak to a manager?"
+      ],
+      "responses": [
+        "Sure! You can reach out to our support team at 1-800-24-7-GROCERY or email support@grocerystore.com.",
+        "Our support team is here for you 24/7. Let me connect you with them."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks, bye",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Thanks for visiting. See you next time!",
+        "Take care! We're always here if you need us."
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "Thanks a lot",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "Anytime! Let me know if there's anything else you need.",
+        "Glad I could assist you!"
+      ]
+    }
+  ]
+}
